@@ -11,4 +11,4 @@ for(let i=0;i<5;i++){
 	)
 }
 
-promise.any(promises).then((result)=>res.innerText=result);
+Promise.any(promises).then((result)=>res.innerText=result);
