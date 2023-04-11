@@ -1,6 +1,6 @@
 window.promises = [];
 
-const res= document.getElementById"output");
+const res= document.getElementById("output");
 
 for(let i=0;i<5;i++){
 	const time=Math.Floor(Math.random()*5)+1;
